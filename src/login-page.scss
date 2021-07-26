@@ -1,0 +1,21 @@
+.login-page {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  .blue-left {
+    width: 50%;
+    height: 100vh;
+    background-color: #156b9b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .logo {
+       width: 75%;
+    }
+  }
+  .gray-right {
+    width: 50%;
+    height: 100vh;
+    background-color: #D3D3D3;
+  }
+}

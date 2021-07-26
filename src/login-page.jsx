@@ -1,6 +1,8 @@
 import React from "react";
 import "./login-page.scss";
 import logo from "./images/logo.png";
+import Login from "./google-login";
+// import Logout from "./google-logout";
 
 const LoginPage = () => {
   return (
@@ -10,7 +12,10 @@ const LoginPage = () => {
           <img src={logo} alt="logo" />
         </div>
       </div>
-      <div className="gray-right">test</div>
+      <div className="gray-right">
+        <Login />
+        {/* <Logout /> */}
+      </div>
     </div>
   );
 };
